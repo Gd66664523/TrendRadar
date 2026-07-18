@@ -1,75 +1,26 @@
-
 # ===============================================================
 # TrendRadar Configuration - 乘二定制版
 # ===============================================================
-
 schedule:
-  enabled: true                      # ✅ 已启用，每天早上推送
-
+  enabled: true
 report:
-  mode: "daily"                      # 每日汇总
+  mode: "daily"
   sort_by_position_first: true
-
 notification:
   enabled: true
-
   channels:
-    feishu:
-      webhook_url: ""
-    dingtalk:
-      webhook_url: ""
-    wework:
-      webhook_url: ""
-    telegram:
-      bot_token: ""
-      chat_id: ""
     email:
       from: "2315814107@qq.com"
-      password: ""                   # ⚠️ 需填写 QQ 邮箱授权码
+      password: ""
       to: "2315814107@qq.com"
       smtp_server: "smtp.qq.com"
       smtp_port: "465"
-    ntfy:
-      topic: ""
-
 filter:
   method: "keyword"
-  priority_sort_enabled: true
-
-ai_filter:
-  min_score: 0.7
-  batch_size: 200
-  batch_interval: 2
-
-display:
-  region_order:
-    - hotlist
-    - rss
-    - ai_analysis
-  regions:
-    hotlist: true
-    rss: true
-    ai_analysis: true
-
-ai:
-  model: "deepseek/deepseek-v4-flash"
-  api_key: "$AI_API_KEY"
-  timeout: 120
-  max_tokens: 5000
-
 ai_analysis:
-  enabled: true
-  language: "Chinese"
-  max_news_for_analysis: 100
-  include_rss: false
-  include_rank_timeline: true
-
+  enabled: false
 ai_translation:
-  enabled: true
-  language: "中文"
-  scope:
-    rss: true
-
+  enabled: false
 storage:
   backend: "auto"
   formats:
