@@ -1,0 +1,81 @@
+{
+  "manifest_version": "v1",
+  "format": "ndjson",
+  "base_token": "Zm0bbA6DaavXqnsXum5cbqX9nqd",
+  "table_id": "tblwc9q3KjOKWP0U",
+  "rev": 65,
+  "timezone": "Asia/Shanghai",
+  "query_context": {
+    "field_scope": "selected_fields",
+    "record_scope": "all_records"
+  },
+  "requested_limit": 2000,
+  "records_count": 26,
+  "page_count": 1,
+  "has_more": false,
+  "record_file": "/workspace/huodong.ndjson",
+  "record_file_size_bytes": 7417,
+  "manifest_file": "/workspace/huodong.manifest.json",
+  "columns": {
+    "record_id": {
+      "physical_type": "string",
+      "stats": {
+        "max_length": 16
+      },
+      "example": "reczz28WqMRU8ckw"
+    },
+    "主办方": {
+      "field_id": "fldSq4YurJ",
+      "field_type": "text",
+      "physical_type": "string|null",
+      "stats": {
+        "null_count": 0,
+        "max_length": 28
+      },
+      "example": "唐软"
+    },
+    "开始时间": {
+      "field_id": "fldDvB74ey",
+      "field_type": "datetime",
+      "physical_type": "string|null",
+      "stats": {
+        "null_count": 1,
+        "min": "2026-11-16T09:00:00.000+08:00",
+        "max": "2026-12-26T09:00:00.000+08:00"
+      },
+      "example": "2026-11-27T09:00:00.000+08:00"
+    },
+    "抓取日期": {
+      "field_id": "fldujRBFs8",
+      "field_type": "datetime",
+      "physical_type": "string|null",
+      "stats": {
+        "null_count": 0,
+        "min": "2026-11-07T00:00:00.000+08:00",
+        "max": "2026-11-16T08:30:00.000+08:00"
+      },
+      "example": "2026-11-07T08:30:00.000+08:00"
+    },
+    "活动名称": {
+      "field_id": "fldZd1iZg7",
+      "field_type": "text",
+      "physical_type": "string|null",
+      "stats": {
+        "null_count": 0,
+        "max_length": 57
+      },
+      "example": "GET2026教育科技大会"
+    },
+    "结束时间": {
+      "field_id": "fldPL34zTU",
+      "field_type": "datetime",
+      "physical_type": "string|null",
+      "stats": {
+        "null_count": 14,
+        "min": "2026-11-17T18:00:00.000+08:00",
+        "max": "2026-12-31T18:00:00.000+08:00"
+      },
+      "example": "2026-11-27T18:00:00.000+08:00"
+    }
+  }
+}
