@@ -1,0 +1,83 @@
+{
+  "manifest_version": "v1",
+  "format": "ndjson",
+  "base_token": "Zm0bbA6DaavXqnsXum5cbqX9nqd",
+  "table_id": "tbl5MyUrw684jKJD",
+  "rev": 5,
+  "timezone": "Asia/Shanghai",
+  "query_context": {
+    "field_scope": "all_fields",
+    "record_scope": "all_records"
+  },
+  "requested_limit": 2000,
+  "records_count": 42,
+  "page_count": 1,
+  "has_more": false,
+  "record_file": "/workspace/.tmp_cleanup/ledger_after.ndjson",
+  "record_file_size_bytes": 12713,
+  "manifest_file": "/workspace/.tmp_cleanup/ledger_after.manifest.json",
+  "columns": {
+    "record_id": {
+      "physical_type": "string",
+      "stats": {
+        "max_length": 16
+      },
+      "example": "reczz28ZoNWMIUx9"
+    },
+    "主办方": {
+      "field_id": "fldvd1oR26",
+      "field_type": "text",
+      "physical_type": "string|null",
+      "stats": {
+        "null_count": 0,
+        "max_length": 31
+      },
+      "example": "唐软"
+    },
+    "最近核对日期": {
+      "field_id": "fldVYuT98O",
+      "field_type": "datetime",
+      "physical_type": "string|null",
+      "stats": {
+        "null_count": 0,
+        "min": "2026-11-15T00:00:00.000+08:00",
+        "max": "2026-11-16T00:00:00.000+08:00"
+      },
+      "example": "2026-11-16T00:00:00.000+08:00"
+    },
+    "活动名称": {
+      "field_id": "fldGYFRxZy",
+      "field_type": "text",
+      "physical_type": "string|null",
+      "stats": {
+        "null_count": 0,
+        "max_length": 57
+      },
+      "example": "GET2026教育科技大会"
+    },
+    "状态": {
+      "field_id": "fldb92maxD",
+      "field_type": "select",
+      "physical_type": "array<string>",
+      "stats": {
+        "empty_count": 0,
+        "max_length": 1,
+        "avg_length": 1
+      },
+      "example": [
+        "在场"
+      ]
+    },
+    "首次入库日期": {
+      "field_id": "fld7AtYlVR",
+      "field_type": "datetime",
+      "physical_type": "string|null",
+      "stats": {
+        "null_count": 0,
+        "min": "2026-11-07T00:00:00.000+08:00",
+        "max": "2026-11-16T00:00:00.000+08:00"
+      },
+      "example": "2026-11-07T00:00:00.000+08:00"
+    }
+  }
+}

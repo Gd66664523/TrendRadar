@@ -1,0 +1,243 @@
+{
+  "manifest_version": "v1",
+  "format": "ndjson",
+  "base_token": "Zm0bbA6DaavXqnsXum5cbqX9nqd",
+  "table_id": "tblwc9q3KjOKWP0U",
+  "rev": 67,
+  "timezone": "Asia/Shanghai",
+  "query_context": {
+    "field_scope": "all_fields",
+    "record_scope": "all_records"
+  },
+  "requested_limit": 2000,
+  "records_count": 11,
+  "page_count": 1,
+  "has_more": false,
+  "record_file": "/workspace/.tmp_cleanup/intel.ndjson",
+  "record_file_size_bytes": 13406,
+  "manifest_file": "/workspace/.tmp_cleanup/intel.manifest.json",
+  "columns": {
+    "record_id": {
+      "physical_type": "string",
+      "stats": {
+        "max_length": 16
+      },
+      "example": "reczz28WqMRU8ckw"
+    },
+    "主办方": {
+      "field_id": "fldSq4YurJ",
+      "field_type": "text",
+      "physical_type": "string|null",
+      "stats": {
+        "null_count": 0,
+        "max_length": 28
+      },
+      "example": "唐软"
+    },
+    "主办方层级": {
+      "field_id": "fldQdM4V54",
+      "field_type": "select",
+      "physical_type": "array<string>",
+      "stats": {
+        "empty_count": 0,
+        "max_length": 1,
+        "avg_length": 1
+      },
+      "example": [
+        "普通机构"
+      ]
+    },
+    "可否路演或设展": {
+      "field_id": "fldVzbDFiR",
+      "field_type": "select",
+      "physical_type": "array<string>",
+      "stats": {
+        "empty_count": 0,
+        "max_length": 1,
+        "avg_length": 1
+      },
+      "example": [
+        "可路演"
+      ]
+    },
+    "城市与场馆": {
+      "field_id": "fldEApMtVG",
+      "field_type": "text",
+      "physical_type": "string|null",
+      "stats": {
+        "null_count": 0,
+        "max_length": 29
+      },
+      "example": "四川成都（具体场馆未公开）"
+    },
+    "子类": {
+      "field_id": "fldO1G9miB",
+      "field_type": "select",
+      "physical_type": "array<string>",
+      "stats": {
+        "empty_count": 0,
+        "max_length": 1,
+        "avg_length": 1
+      },
+      "example": [
+        "不适用"
+      ]
+    },
+    "建议动作": {
+      "field_id": "fldxkbpv3P",
+      "field_type": "select",
+      "physical_type": "array<string>",
+      "stats": {
+        "empty_count": 0,
+        "max_length": 1,
+        "avg_length": 1
+      },
+      "example": [
+        "报名"
+      ]
+    },
+    "开始时间": {
+      "field_id": "fldDvB74ey",
+      "field_type": "datetime",
+      "physical_type": "string|null",
+      "stats": {
+        "null_count": 1,
+        "min": "2026-11-18T09:00:00.000+08:00",
+        "max": "2026-12-25T13:30:00.000+08:00"
+      },
+      "example": "2026-11-27T09:00:00.000+08:00"
+    },
+    "抓取日期": {
+      "field_id": "fldujRBFs8",
+      "field_type": "datetime",
+      "physical_type": "string|null",
+      "stats": {
+        "null_count": 0,
+        "min": "2026-11-07T00:00:00.000+08:00",
+        "max": "2026-11-16T08:30:00.000+08:00"
+      },
+      "example": "2026-11-07T08:30:00.000+08:00"
+    },
+    "报名截止": {
+      "field_id": "flds6g1kFx",
+      "field_type": "datetime",
+      "physical_type": "string|null",
+      "stats": {
+        "null_count": 9,
+        "min": "2026-11-19T23:59:59.000+08:00",
+        "max": "2026-11-25T23:59:00.000+08:00"
+      },
+      "example": "2026-11-19T23:59:59.000+08:00"
+    },
+    "报名链接": {
+      "field_id": "fldok3RWbR",
+      "field_type": "text",
+      "physical_type": "string|null",
+      "stats": {
+        "null_count": 0,
+        "max_length": 210
+      },
+      "example": "[https://ccai.caai.cn/](https://ccai.caai.cn/)"
+    },
+    "提醒状态": {
+      "field_id": "fld9LZcKhA",
+      "field_type": "select",
+      "physical_type": "array<string>",
+      "stats": {
+        "empty_count": 0,
+        "max_length": 1,
+        "avg_length": 1
+      },
+      "example": [
+        "已排期"
+      ]
+    },
+    "日历ID": {
+      "field_id": "fldj5QoR0P",
+      "field_type": "text",
+      "physical_type": "string|null",
+      "stats": {
+        "null_count": 11,
+        "max_length": 0
+      },
+      "hint": "All values are empty; type inference may be ambiguous. Avoid analyzing this column unless required."
+    },
+    "日程ID": {
+      "field_id": "flduxj83o7",
+      "field_type": "text",
+      "physical_type": "string|null",
+      "stats": {
+        "null_count": 11,
+        "max_length": 0
+      },
+      "hint": "All values are empty; type inference may be ambiguous. Avoid analyzing this column unless required."
+    },
+    "来源URL": {
+      "field_id": "fldF2PixwO",
+      "field_type": "text",
+      "physical_type": "string|null",
+      "stats": {
+        "null_count": 0,
+        "max_length": 210
+      },
+      "example": "[https://ccai.caai.cn/](https://ccai.caai.cn/)"
+    },
+    "活动名称": {
+      "field_id": "fldZd1iZg7",
+      "field_type": "text",
+      "physical_type": "string|null",
+      "stats": {
+        "null_count": 0,
+        "max_length": 40
+      },
+      "example": "2026中国AI伙伴峰会·成都站"
+    },
+    "状态": {
+      "field_id": "fldr4yIvgf",
+      "field_type": "select",
+      "physical_type": "array<string>",
+      "stats": {
+        "empty_count": 0,
+        "max_length": 1,
+        "avg_length": 1
+      },
+      "example": [
+        "待定"
+      ]
+    },
+    "类别": {
+      "field_id": "fldzZPMuPh",
+      "field_type": "select",
+      "physical_type": "array<string>",
+      "stats": {
+        "empty_count": 0,
+        "max_length": 1,
+        "avg_length": 1
+      },
+      "example": [
+        "C 行业大会与展会"
+      ]
+    },
+    "结束时间": {
+      "field_id": "fldPL34zTU",
+      "field_type": "datetime",
+      "physical_type": "string|null",
+      "stats": {
+        "null_count": 5,
+        "min": "2026-11-27T18:00:00.000+08:00",
+        "max": "2026-12-06T18:00:00.000+08:00"
+      },
+      "example": "2026-11-27T18:00:00.000+08:00"
+    },
+    "评分依据": {
+      "field_id": "fldlaWpXJl",
+      "field_type": "text",
+      "physical_type": "string|null",
+      "stats": {
+        "null_count": 0,
+        "max_length": 430
+      },
+      "example": "主办方与报名条件未公开，无法核实，按待核处理，暂不评分。"
+    }
+  }
+}
